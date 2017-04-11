@@ -1,11 +1,11 @@
 # Website Design Using React
 1. Need to install webpack for project initialization
-..1 To install webpack to your project folder
+..1. To install webpack to your project folder
 ```
 npm install webpack --save-dev
 ```
 2. Need to install babel to support .jsx files for this project
-..2 To install babel in your project folder
+..2. To install babel in your project folder
 ```
 npm install babel-loader babel-core --save-dev
 ```
