@@ -4,7 +4,7 @@ import Terrain from "react-icons/lib/md/terrain"
 import SnowFlake from "react-icons/lib/ti/weather-snow"
 import Calender from "react-icons/lib/fa/calendar"
 
-import {PropTypes} from 'react'
+import PropTypes from 'prop-types'
 // export class SkiDayCount extends Component {
 //
 //   percentToDecimal(decimal){
@@ -55,6 +55,7 @@ export const SkiDayCount = (props) => (
     </div>
     <div className="back-country-days">
       <span>{props.backcountry}</span>
+      <Terrain/>
       <span>days</span>
     </div>
     <div>
