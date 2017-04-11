@@ -1,9 +1,9 @@
 import Terrain from 'react-icons/lib/md/terrain'
 import SnowFlake from 'react-icons/lib/ti/weather-snow'
 import Calender from 'react-icons/lib/fa/calendar'
+import PropTypes from 'prop-types'
 
 import {SkiDayRow} from'./SkiDayRow'
-import PropTypes from 'prop-types'
 
 export const SkiDayList = ({days}) =>(
   <table>

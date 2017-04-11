@@ -4,6 +4,9 @@ import {render} from 'react-dom'
 import {SkiDayList} from './components/SkiDayList'
 import {SkiDayCount} from './components/SkiDayCount'
 import {App} from './components/App'
+import {Whoops404} from './components/Whoops404'
+
+import {HashRouter as Router, Route} from 'react-router-dom'
 window.React = React
 // import {hello, goodbye,apple} from './lib'
 // const style = {
@@ -35,6 +38,9 @@ render(
 
 // <SkiDayCount />,
 // document.getElementById('react-container')
-  <App />,
+  <Router>
+    <Route exact path="/" component={App} />
+    <Route path="/ll" component={Whoops404} />
+  </Router>,
   document.getElementById('react-container')
 )
